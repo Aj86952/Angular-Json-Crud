@@ -1,0 +1,50 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Nilam",
+      "city": "Indore",
+      "email": "nilam@gmail.com"
+    },
+    {
+      "name": "KamalNath",
+      "city": "Pune",
+      "email": "kamal@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Ajinkya",
+      "city": "Nagbhir",
+      "email": "akshay@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Ajinkya Rajendra",
+      "city": "Nagbhir Live",
+      "email": "sdfs@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Ajinkya Rajendra Hatwar",
+      "city": "Nagbhir",
+      "email": "",
+      "id": 12
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullName": "karan",
+      "mobile": "87986546",
+      "email": "karan@gmail.com",
+      "password": "1321313",
+      "id": 1
+    },
+    {
+      "fullName": "ajinkya",
+      "mobile": "9689440036",
+      "email": "ajinkya@gmail.com",
+      "password": "starone",
+      "id": 2
+    }
+  ]
+}

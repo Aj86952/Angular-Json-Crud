@@ -1,0 +1,49 @@
+<h1 class="mt-3">Add Employee</h1>
+
+<div
+  *ngIf="alert"
+  class="alert alert-success alert-dismissible fade show"
+  role="alert"
+>
+  <strong>Holy guacamole!</strong> Your data has been entered..!
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+    (click)="closeAlert()"
+  ></button>
+</div>
+
+<form [formGroup]="employee" (ngSubmit)="onSubmit(employee.value)">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Name :</label>
+    <input
+      type="text"
+      class="form-control"
+      name="name"
+      formControlName="name"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">City :</label>
+    <input
+      type="text"
+      class="form-control"
+      name="city"
+      formControlName="city"
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Email :</label>
+    <input
+      type="email"
+      class="form-control"
+      name="email"
+      formControlName="email"
+    />
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
